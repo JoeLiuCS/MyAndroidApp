@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/listItemCName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/listItemCPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone:"
+        android:layout_below="@+id/listItemCName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/listItemCLastDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Modified Date:"
+        android:layout_alignBottom="@+id/CalledButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/listItemCWants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wants:"
+        android:layout_below="@+id/listItemCLastDate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/CalledButton"
+        android:layout_width="122px"
+        android:layout_height="100px"
+        android:background="@drawable/addbutton"
+        android:layout_alignParentRight="true"
+        android:text="Knew"
+        />
+</RelativeLayout>

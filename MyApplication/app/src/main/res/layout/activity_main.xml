@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/interfacebackground">
+
+
+    <TextView
+        android:id="@+id/appNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="\n\nWelcome to listMyGuest"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_weight="1.46"
+        android:textSize="22sp" />
+    <EditText
+        android:id="@+id/userNameEdit"
+        android:layout_weight="0.6"
+        android:hint=" userName"
+        android:background="@drawable/editstyle1"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/userPasswordEdit"
+        android:layout_weight="0.6"
+        android:hint=" password"
+        android:background="@drawable/editstyle1"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_weight="0.5"
+        android:layout_gravity="center"
+        android:layout_margin="6dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/loginButton"
+            android:text="login"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttonicon"
+            android:layout_width="192px"
+            android:layout_height="120px" />
+        <TextView
+            android:text="   Or  "
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/createButton"
+            android:text="Create account"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttonicon"
+            android:layout_width="192px"
+            android:layout_height="120px"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_weight="5.3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

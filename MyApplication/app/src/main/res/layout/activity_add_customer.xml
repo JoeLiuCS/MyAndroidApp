@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/interfacebackground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="\nAdd a customer"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_weight="3"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_weight="0.8"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="customer name:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_weight="0.8"
+        android:id="@+id/createCustomerName"
+        android:background="@drawable/editstyle1"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_weight="0.8"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="customer phone number:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_weight="0.8"
+        android:id="@+id/createCustomerPhoneNum"
+        android:background="@drawable/editstyle1"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_weight="0.8"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Last date customer come back:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_weight="0.8"
+        android:id="@+id/customerBackDate"
+        android:background="@drawable/editstyle1"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_weight="0.8"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="customer wants:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_weight="5"
+        android:id="@+id/customerWants"
+        android:background="@drawable/editstyle1"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/addcustomerButton"
+        android:text="Add"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonicon"
+        android:layout_width="192px"
+        android:layout_height="120px" />
+    <Button
+        android:id="@+id/ABack"
+        android:text="Back"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonicon"
+        android:layout_width="192px"
+        android:layout_height="120px" />
+
+    <TextView
+        android:layout_weight="3.3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

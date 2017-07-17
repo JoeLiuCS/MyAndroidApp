@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_weight="3"
+        android:layout_gravity="center"
+        android:layout_margin="6dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/logoutButton"
+            android:text="logout"
+            android:background="@drawable/addbutton"
+            android:layout_alignParentLeft="true"
+            android:layout_width="192px"
+            android:layout_height="120px" />
+        <Button
+            android:id="@+id/addCusButton"
+            android:text="add"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/addbutton"
+            android:layout_width="192px"
+            android:layout_height="120px"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight="7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+        android:layout_weight="7"
+        android:id="@+id/cusListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        </ListView>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/interfacebackground">
+
+    <TextView
+        android:id="@+id/creatAccText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="\n\nCreate My Account"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_weight="3"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_weight="0.8"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="create username:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/creatAcc"
+        android:layout_weight="1"
+        android:hint="Type userName"
+        android:background="@drawable/editstyle1"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_weight="0.8"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Create password:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/createPass"
+        android:layout_weight="1"
+        android:hint="Type password"
+        android:background="@drawable/editstyle1"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_weight="0.8"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="confirm password:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/confirmPass"
+        android:layout_weight="1"
+        android:hint=" confirm password"
+        android:background="@drawable/editstyle1"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/createAccButton"
+        android:text="Create"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonicon"
+        android:layout_width="192px"
+        android:layout_height="120px" />
+
+    <Button
+        android:id="@+id/Back"
+        android:text="Back"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonicon"
+        android:layout_width="192px"
+        android:layout_height="120px" />
+
+    <TextView
+        android:layout_weight="5.3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

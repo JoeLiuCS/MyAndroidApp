@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_play_menu">PlayMenu</string>
+    <string name="title_activity_add_customer">AddCustomer</string>
+</resources>
